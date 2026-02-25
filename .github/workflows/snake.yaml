@@ -1,4 +1,4 @@
-name: Update README cards
+name: Update snake commit graph
 
 on:
   workflow_dispatch:
