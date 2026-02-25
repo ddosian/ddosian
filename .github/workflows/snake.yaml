@@ -22,3 +22,11 @@ jobs:
           outputs: |
             snake-catppuccin-mocha.svg?color_snake=#f5c2e7&color_dots=#312c42,#62537f,#8570a6,#a88bcf,#cba6f7
             snake-github-light.svg?palette=github-light
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+          git add .
+          git commit -m "Update snake commit graph" || exit 0
+          git push origin main
