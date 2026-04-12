@@ -24,7 +24,7 @@ jobs:
             snake-github-light.svg?palette=github-light
 
       - name: Generate stats card (dark)
-        uses: readme-tools/github-readme-stats-action@main
+        uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
           options: username=${{ github.repository_owner }}&show_icons=true&theme=catppuccin_mocha&hide_border=true
@@ -32,7 +32,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate top languages card (dark)
-        uses: readme-tools/github-readme-stats-action@main
+        uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
           options: username=${{ github.repository_owner }}&layout=compact&card_width=395&theme=catppuccin_mocha&hide_border=true
@@ -40,7 +40,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate stats card (light)
-        uses: readme-tools/github-readme-stats-action@main
+        uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
           options: username=${{ github.repository_owner }}&show_icons=true&theme=catppuccin_latte&hide_border=true
@@ -48,7 +48,7 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate top languages card (light)
-        uses: readme-tools/github-readme-stats-action@main
+        uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
           options: username=${{ github.repository_owner }}&layout=compact&card_width=395&theme=catppuccin_latte&hide_border=true
