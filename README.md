@@ -1,8 +1,5 @@
 # DontDDoS
 
-![Snake](./snake.svg)
-
-<div>
-  <img width="400" src="./stats.svg" />
-  <img width="400" src="./top-langs.svg" />
-</div>
+![Stats](./profile/stats.svg)
+![Top Languages](./profile/top-langs.svg)
+![Pinned](./profile/pin-readme-tools-github-readme-stats.svg)
