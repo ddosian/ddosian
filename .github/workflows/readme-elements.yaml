@@ -20,39 +20,22 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            snake-catppuccin-mocha.svg?color_snake=#f5c2e7&color_dots=#312c42,#62537f,#8570a6,#a88bcf,#cba6f7
-            snake-github-light.svg?palette=github-light
+            snake.svg
 
-      - name: Generate stats card (dark)
+      - name: Generate stats card
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=catppuccin_mocha&hide_border=true
-          path: stats-dark.svg
+          options: username=${{ github.repository_owner }}&show_icons=true&hide_border=true
+          path: stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate top languages card (dark)
+      - name: Generate top languages card
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&card_width=395&theme=catppuccin_mocha&hide_border=true
-          path: top-langs-dark.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Generate stats card (light)
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=catppuccin_latte&hide_border=true
-          path: stats-light.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Generate top languages card (light)
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: top-langs
-          options: username=${{ github.repository_owner }}&layout=compact&card_width=395&theme=catppuccin_latte&hide_border=true
-          path: top-langs-light.svg
+          options: username=${{ github.repository_owner }}&layout=compact&card_width=395&hide_border=true
+          path: top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Commit and push
