@@ -25,6 +25,6 @@
 
 ### Stats
 
-[![GitHub stats](https://github-stats-extended.vercel.app/api?username=ddosian&rank_icon=percentile&show_icons=true&include_all_commits=true&theme=dark)](https://github.com/stats-organization/github-stats-extended)
+[![GitHub stats](https://github-stats-extended.vercel.app/api?username=ddosian&rank_icon=percentile&show_icons=true&include_all_commits=true&theme=transparent)](https://github.com/stats-organization/github-stats-extended)
 
-![Top Langs](https://github-stats-extended.vercel.app/api/top-langs/?username=ddosian&langs_count=4&theme=dark)
+![Top Langs](https://github-stats-extended.vercel.app/api/top-langs/?username=ddosian&langs_count=4&theme=transparent)
