@@ -7,7 +7,7 @@
 - 😄 Pronouns: He/Him
 - ⚡ Fun fact: I quite like computers
 
----
+#
 
 ### Languages & Tools
 
@@ -21,7 +21,7 @@
 
 <br>
 
----
+#
 
 ### Stats
 
